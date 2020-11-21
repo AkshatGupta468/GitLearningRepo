@@ -6,33 +6,6 @@ FPS = 32
 
 LOC = os.getcwd()
 drives = ("C:", "D:", "E:", "F:", "G:", "H:")
-# def find_LOC():
-#     for j in drives:
-#         if(os.path.exists(f"{j}:")):
-#             print(j,"yes",sep=" >> ")
-#         nlistdir=[j]
-#         while (len(nlistdir)):
-#             print("nlist\n",nlistdir)
-#             print("======================")
-#             if(os.path.isfile(nlistdir[0]))
-#                 nlistdir.pop(0)
-#             else:
-#                 flistdir = os.listdir(nlistdir[0])
-#                 print("flistdir\n", flistdir, "\n%%%%%%%%%%%%%%%%%%")
-#                 for i in flistdir:
-#                     print("nlistdir[0] is :",nlistdir[0],sep=' ')
-#
-#                     if (i=="ball_jump"):
-#                         return i+r"/"+j
-#                     else:
-#                         newdir = os.path.join(nlistdir[0], i)
-#                     print("new dir is :", end=' ')
-#                     print(newdir)
-#                     nlistdir.append(newdir)
-#         #
-#         #         nlistdir.pop(0)
-#         # input("Press any key")
-# find_LOC()
 
 print(os.getcwd())
 print(LOC)
@@ -44,6 +17,7 @@ GROUNDY = 311
 GAMESPRITES = {}
 GAMESOUNDS = {}
 
+# t = pfygame.font.Font("calibribody",32)
 
 def welcome_scr():
     """
